@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		B0000000000000000000003E /* MiFiCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000003D /* MiFiCore.swift */; };
+		B00000000000000000000040 /* MiFiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000003F /* MiFiClient.swift */; };
+		B00000000000000000000042 /* CredentialsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000041 /* CredentialsStore.swift */; };
+		B00000000000000000000044 /* AppGroupStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000043 /* AppGroupStore.swift */; };
+		B00000000000000000000046 /* UsageHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000045 /* UsageHistory.swift */; };
+		B00000000000000000000048 /* MiFiRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000047 /* MiFiRefresh.swift */; };
+		B0000000000000000000004A /* ByteFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000049 /* ByteFormat.swift */; };
+		B0000000000000000000004C /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000004B /* StatusView.swift */; };
+		B0000000000000000000004E /* RestartIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000004D /* RestartIntent.swift */; };
+		B00000000000000000000050 /* MiFiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000004F /* MiFiApp.swift */; };
+		B00000000000000000000052 /* HostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000051 /* HostView.swift */; };
+		B00000000000000000000054 /* MiFiWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000053 /* MiFiWidget.swift */; };
+		B00000000000000000000056 /* MiFiWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000055 /* MiFiWidgetBundle.swift */; };
+		B00000000000000000000058 /* UsageHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000057 /* UsageHistoryTests.swift */; };
+		B00000000000000000000034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000033 /* Assets.xcassets */; };
+		B0000000000000000000001B /* MiFiWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000E /* MiFiWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B00000000000000000000038 /* MiFiCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* MiFiCore.framework */; };
+		B00000000000000000000039 /* MiFiCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* MiFiCore.framework */; };
+		B0000000000000000000003A /* MiFiCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* MiFiCore.framework */; };
+		B0000000000000000000003C /* MiFiCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* MiFiCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0000000000000000000003D /* MiFiCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiFiCore.swift; sourceTree = "<group>"; };
+		B0000000000000000000003F /* MiFiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiFiClient.swift; sourceTree = "<group>"; };
+		B00000000000000000000041 /* CredentialsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsStore.swift; sourceTree = "<group>"; };
+		B00000000000000000000043 /* AppGroupStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupStore.swift; sourceTree = "<group>"; };
+		B00000000000000000000045 /* UsageHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageHistory.swift; sourceTree = "<group>"; };
+		B00000000000000000000047 /* MiFiRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiFiRefresh.swift; sourceTree = "<group>"; };
+		B00000000000000000000049 /* ByteFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteFormat.swift; sourceTree = "<group>"; };
+		B0000000000000000000004B /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		B0000000000000000000004D /* RestartIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartIntent.swift; sourceTree = "<group>"; };
+		B0000000000000000000004F /* MiFiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiFiApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000051 /* HostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostView.swift; sourceTree = "<group>"; };
+		B00000000000000000000053 /* MiFiWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiFiWidget.swift; sourceTree = "<group>"; };
+		B00000000000000000000055 /* MiFiWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiFiWidgetBundle.swift; sourceTree = "<group>"; };
+		B00000000000000000000057 /* UsageHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageHistoryTests.swift; sourceTree = "<group>"; };
+		B00000000000000000000033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00000000000000000000035 /* MiFiApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiFiApp.entitlements; sourceTree = "<group>"; };
+		B00000000000000000000036 /* MiFiWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiFiWidget.entitlements; sourceTree = "<group>"; };
+		B00000000000000000000037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0000000000000000000000C /* MiFiCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiFiCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0000000000000000000000D /* MiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0000000000000000000000E /* MiFiWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MiFiWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0000000000000000000000F /* MiFiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiFiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000038,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000039,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0000000000000000000003A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0000000000000000000003E /* MiFiCore.swift in Sources */,
+				B00000000000000000000040 /* MiFiClient.swift in Sources */,
+				B00000000000000000000042 /* CredentialsStore.swift in Sources */,
+				B00000000000000000000044 /* AppGroupStore.swift in Sources */,
+				B00000000000000000000046 /* UsageHistory.swift in Sources */,
+				B00000000000000000000048 /* MiFiRefresh.swift in Sources */,
+				B0000000000000000000004A /* ByteFormat.swift in Sources */,
+				B0000000000000000000004C /* StatusView.swift in Sources */,
+				B0000000000000000000004E /* RestartIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000050 /* MiFiApp.swift in Sources */,
+				B00000000000000000000052 /* HostView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000054 /* MiFiWidget.swift in Sources */,
+				B00000000000000000000056 /* MiFiWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000058 /* UsageHistoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000018 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000034 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0000000000000000000003B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B0000000000000000000003C /* MiFiCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0000000000000000000001A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B0000000000000000000001B /* MiFiWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000004 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000003D,
+				B0000000000000000000003F,
+				B00000000000000000000041,
+				B00000000000000000000043,
+				B00000000000000000000045,
+				B00000000000000000000047,
+				B00000000000000000000049,
+				B0000000000000000000004B,
+				B0000000000000000000004D,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000005 /* MiFiApp */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000004F,
+				B00000000000000000000051,
+				B00000000000000000000033,
+				B00000000000000000000035,
+			);
+			path = MiFiApp;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000006 /* MiFiWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000053,
+				B00000000000000000000055,
+				B00000000000000000000036,
+				B00000000000000000000037,
+			);
+			path = MiFiWidget;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000007 /* MiFiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000057,
+			);
+			path = MiFiTests;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000C,
+				B0000000000000000000000D,
+				B0000000000000000000000E,
+				B0000000000000000000000F,
+			);
+			sourceTree = "<group>";
+		};
+		B00000000000000000000002 /* MiFi */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000004,
+				B00000000000000000000005,
+				B00000000000000000000006,
+				B00000000000000000000007,
+				B00000000000000000000003,
+			);
+			sourceTree = "<group>";
+		};
+		B00000000000000000000008 /* MiFiCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0000000000000000000001D;
+			buildPhases = (
+				B00000000000000000000018,
+				B00000000000000000000010,
+				B00000000000000000000014,
+			);
+			buildRules = ();
+			dependencies = (
+			);
+			name = MiFiCore;
+			productName = MiFiCore;
+			productReference = B0000000000000000000000C /* MiFiCore */;
+			productType = "com.apple.product-type.framework";
+		};
+		B00000000000000000000009 /* MiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0000000000000000000001E;
+			buildPhases = (
+				B00000000000000000000011,
+				B00000000000000000000015,
+				B00000000000000000000019,
+				B0000000000000000000003B,
+				B0000000000000000000001A,
+			);
+			buildRules = ();
+			dependencies = (
+				B0000000000000000000002B,
+				B00000000000000000000031,
+			);
+			name = MiFi;
+			productName = MiFi;
+			productReference = B0000000000000000000000D /* MiFi */;
+			productType = "com.apple.product-type.application";
+		};
+		B0000000000000000000000A /* MiFiWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0000000000000000000001F;
+			buildPhases = (
+				B00000000000000000000012,
+				B00000000000000000000016,
+			);
+			buildRules = ();
+			dependencies = (
+				B0000000000000000000002D,
+			);
+			name = MiFiWidgetExtension;
+			productName = MiFiWidgetExtension;
+			productReference = B0000000000000000000000E /* MiFiWidgetExtension */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B0000000000000000000000B /* MiFiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00000000000000000000020;
+			buildPhases = (
+				B00000000000000000000013,
+				B00000000000000000000017,
+			);
+			buildRules = ();
+			dependencies = (
+				B0000000000000000000002F,
+			);
+			name = MiFiTests;
+			productName = MiFiTests;
+			productReference = B0000000000000000000000F /* MiFiTests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0000000000000000000002C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00000000000000000000008;
+			remoteInfo = MiFiCore;
+		};
+		B0000000000000000000002B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00000000000000000000008 /* MiFiCore */;
+			targetProxy = B0000000000000000000002C /* PBXContainerItemProxy */;
+		};
+		B0000000000000000000002E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00000000000000000000008;
+			remoteInfo = MiFiCore;
+		};
+		B0000000000000000000002D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00000000000000000000008 /* MiFiCore */;
+			targetProxy = B0000000000000000000002E /* PBXContainerItemProxy */;
+		};
+		B00000000000000000000030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00000000000000000000008;
+			remoteInfo = MiFiCore;
+		};
+		B0000000000000000000002F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00000000000000000000008 /* MiFiCore */;
+			targetProxy = B00000000000000000000030 /* PBXContainerItemProxy */;
+		};
+		B00000000000000000000032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0000000000000000000000A;
+			remoteInfo = MiFiWidgetExtension;
+		};
+		B00000000000000000000031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0000000000000000000000A /* MiFiWidgetExtension */;
+			targetProxy = B00000000000000000000032 /* PBXContainerItemProxy */;
+		};
+		B00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = B0000000000000000000001C;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = B00000000000000000000002;
+			productRefGroup = B00000000000000000000003;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00000000000000000000008,
+				B00000000000000000000009,
+				B0000000000000000000000A,
+				B0000000000000000000000B,
+			);
+		};
+		B00000000000000000000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+			};
+			name = Debug;
+		};
+		B00000000000000000000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = -O;
+			};
+			name = Release;
+		};
+		core_debug /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_VERSION = 5.0;
+				PRODUCT_NAME = $(TARGET_NAME);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifi.MiFiCore;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				ENABLE_HARDENED_RUNTIME = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = @rpath;
+				INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks;
+				SKIP_INSTALL = YES;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @loader_path/Frameworks;
+				GENERATE_INFOPLIST_FILE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+			};
+			name = Debug;
+		};
+		core_release /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_VERSION = 5.0;
+				PRODUCT_NAME = $(TARGET_NAME);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifi.MiFiCore;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				ENABLE_HARDENED_RUNTIME = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = @rpath;
+				INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks;
+				SKIP_INSTALL = YES;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @loader_path/Frameworks;
+				GENERATE_INFOPLIST_FILE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = -O;
+			};
+			name = Release;
+		};
+		app_debug /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_VERSION = 5.0;
+				PRODUCT_NAME = $(TARGET_NAME);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifi.MiFiApp;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks;
+				CODE_SIGN_ENTITLEMENTS = MiFiApp/MiFiApp.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+			};
+			name = Debug;
+		};
+		app_release /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_VERSION = 5.0;
+				PRODUCT_NAME = $(TARGET_NAME);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifi.MiFiApp;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks;
+				CODE_SIGN_ENTITLEMENTS = MiFiApp/MiFiApp.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = -O;
+			};
+			name = Release;
+		};
+		widget_debug /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_VERSION = 5.0;
+				PRODUCT_NAME = $(TARGET_NAME);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifi.MiFiApp.MiFiWidget;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @executable_path/../../Frameworks;
+				CODE_SIGN_ENTITLEMENTS = MiFiWidget/MiFiWidget.entitlements;
+				INFOPLIST_FILE = MiFiWidget/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+			};
+			name = Debug;
+		};
+		widget_release /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_VERSION = 5.0;
+				PRODUCT_NAME = $(TARGET_NAME);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifi.MiFiApp.MiFiWidget;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @executable_path/../../Frameworks;
+				CODE_SIGN_ENTITLEMENTS = MiFiWidget/MiFiWidget.entitlements;
+				INFOPLIST_FILE = MiFiWidget/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = -O;
+			};
+			name = Release;
+		};
+		test_debug /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_VERSION = 5.0;
+				PRODUCT_NAME = $(TARGET_NAME);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifi.MiFiTests;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				ENABLE_HARDENED_RUNTIME = YES;
+				BUNDLE_LOADER = $(TEST_HOST);
+				TEST_HOST = $(BUILT_PRODUCTS_DIR)/MiFi.app/Contents/MacOS/MiFi;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @loader_path/../Frameworks;
+				GENERATE_INFOPLIST_FILE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+			};
+			name = Debug;
+		};
+		test_release /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_VERSION = 5.0;
+				PRODUCT_NAME = $(TARGET_NAME);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifi.MiFiTests;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				ENABLE_HARDENED_RUNTIME = YES;
+				BUNDLE_LOADER = $(TEST_HOST);
+				TEST_HOST = $(BUILT_PRODUCTS_DIR)/MiFi.app/Contents/MacOS/MiFi;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @loader_path/../Frameworks;
+				GENERATE_INFOPLIST_FILE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = -O;
+			};
+			name = Release;
+		};
+		B0000000000000000000001C /* Build configuration list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000021,
+				B00000000000000000000022,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0000000000000000000001D /* Build configuration list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000023,
+				B00000000000000000000024,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0000000000000000000001E /* Build configuration list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000025,
+				B00000000000000000000026,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0000000000000000000001F /* Build configuration list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000027,
+				B00000000000000000000028,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00000000000000000000020 /* Build configuration list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000029,
+				B0000000000000000000002A,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+	};
+	rootObject = B00000000000000000000001 /* Project object */;
+}
